@@ -19,7 +19,6 @@ public class Solver {
         int n = Integer.parseInt(stringTokenizer.nextToken());
 
         stringTokenizer = new StringTokenizer(in.readLine());
-        String s;
         HashTable<Integer> hashTable = new HashTable<>(n, n);
 
         while (true) {
